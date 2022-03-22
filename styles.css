@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Exo+2:wght@500&display=swap');
+
+body {
+    background-color: #004242;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    margin: 0px;
+}
+header{
+    background-color: #004242;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    
+}
+h3{
+    display: flex;
+    align-items: center;
+    background-color: #c7a600;
+    background-image: url("https://www.transparenttextures.com/patterns/elastoplast.png");
+    height: 50px;
+    border-color:cornflowerblue;
+    border-radius: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.titleImg{
+    width: 350px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.navBar{
+    margin: 0px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.pokeNav{
+    padding: 10px;
+}
+.elementSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#filter{
+    text-align: center;
+    width: 200px;
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.containerPokemon {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top: 20px;
+}
+.pokeTitle{
+    display: flex;
+    /* background-image: url(https://media3.giphy.com/media/XeH46jGNhcnaySNyd1/giphy-downsized-large.gif);    color: whitesmoke; */
+    background-color: #747800;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png");
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+   
+}
+.pokeTitle1{
+    display: flex;
+    flex-direction: column;
+    background-color: #747800;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png");
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+    width: 100px;
+   
+}
+.pokeCard {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    transition: .5s;
+    justify-content: space-around;
+    background-color: #747800;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+    border-radius: 10px;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.pokeCard:hover{
+    background-color: #ebe831;
+    color: white;
+    width: 360px ;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.pokeImg {
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+}
